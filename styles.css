@@ -729,17 +729,31 @@ html {
   .decor-1 {
     left: 6%;
   }
-  .tags img{ 
+
+  .tags img {
     max-width: 405px;
     width: 100%;
   }
-  .quote{
+
+  .quote {
     font-size: 16px;
   }
 }
 
-@media (max-width:360px) {
+@media (max-width:380px) {
   .decor-1 {
     left: 0;
+  }
+
+  .prizes-section {
+    padding: 0 16px;
+  }
+
+  .prizes-section>div {
+    height: 398px;
+  }
+
+  .info-card {
+    height: 190px;
   }
 }
